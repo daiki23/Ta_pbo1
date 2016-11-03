@@ -4,14 +4,15 @@ Project quiz pbo yang ke 1
 
 screenshoot nya
 
-![1](http://www.mediafire.com/view/9h9xhmj6d8vn3re/pbo2.png)
+![1](http://www.mediafire.com/convkey/7d7d/a1euuvnwn2vdl7wzg.jpg)
 
-![2](http://www.mediafire.com/view/a1euuvnwn2vdl7w/pbo.png)
+![2](http://www.mediafire.com/convkey/ddc4/9h9xhmj6d8vn3rezg.jpg)
 
-![3](http://www.mediafire.com/view/34ah45stk3b5rfu/pbo3.png)
-![4](http://www.mediafire.com/view/yj8wr343b04jjqq/pbo4.png)
+![3](http://www.mediafire.com/convkey/687a/34ah45stk3b5rfuzg.jpg)
 
-![5](http://www.mediafire.com/view/un8n42da0ucso48/pbo5.png)
+![4](http://www.mediafire.com/convkey/3421/yj8wr343b04jjqqzg.jpg)
+
+![5](http://www.mediafire.com/convkey/44b5/un8n42da0ucso48zg.jpg)
 
 
 
