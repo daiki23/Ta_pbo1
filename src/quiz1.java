@@ -26,6 +26,7 @@ public class quiz1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         nama = new javax.swing.JLabel();
         absen = new javax.swing.JLabel();
@@ -38,25 +39,56 @@ public class quiz1 extends javax.swing.JFrame {
         buttonProses = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         TA = new javax.swing.JTextArea();
+        jPanel2 = new javax.swing.JPanel();
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("Penilaian Siswa");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(118, 11, 161, 29);
 
         nama.setText("Nama");
+        getContentPane().add(nama);
+        nama.setBounds(80, 55, 50, 20);
 
         absen.setText("Absen");
+        getContentPane().add(absen);
+        absen.setBounds(80, 93, 50, 20);
 
         matpel.setText("Matpel");
+        getContentPane().add(matpel);
+        matpel.setBounds(80, 131, 40, 20);
 
         nilai.setText("Nilai");
+        getContentPane().add(nilai);
+        nilai.setBounds(80, 159, 60, 30);
 
         TextFieldNama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TextFieldNamaActionPerformed(evt);
             }
         });
+        getContentPane().add(TextFieldNama);
+        TextFieldNama.setBounds(188, 48, 161, 30);
+        getContentPane().add(TextFieldAbsen);
+        TextFieldAbsen.setBounds(188, 86, 161, 30);
+        getContentPane().add(TextFieldMatpel);
+        TextFieldMatpel.setBounds(188, 124, 161, 30);
+        getContentPane().add(TextFieldNilai);
+        TextFieldNilai.setBounds(188, 162, 161, 30);
 
         buttonProses.setText("Proses");
         buttonProses.addActionListener(new java.awt.event.ActionListener() {
@@ -64,72 +96,34 @@ public class quiz1 extends javax.swing.JFrame {
                 buttonProsesActionPerformed(evt);
             }
         });
+        getContentPane().add(buttonProses);
+        buttonProses.setBounds(178, 203, 65, 30);
 
         TA.setColumns(20);
         TA.setRows(5);
         jScrollPane1.setViewportView(TA);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(80, 80, 80)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(nama)
-                    .addComponent(absen)
-                    .addComponent(matpel)
-                    .addComponent(nilai))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 70, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(TextFieldNama)
-                            .addComponent(TextFieldAbsen)
-                            .addComponent(TextFieldMatpel)
-                            .addComponent(TextFieldNilai, javax.swing.GroupLayout.DEFAULT_SIZE, 161, Short.MAX_VALUE)))
-                    .addComponent(jLabel1))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(55, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(buttonProses)
-                        .addGap(157, 157, 157))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 306, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(39, 39, 39))))
+        getContentPane().add(jScrollPane1);
+        jScrollPane1.setBounds(55, 239, 306, 144);
+
+        jPanel2.setBackground(new java.awt.Color(255, 204, 51));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nama)
-                    .addComponent(TextFieldNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(absen)
-                    .addComponent(TextFieldAbsen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(matpel)
-                    .addComponent(TextFieldMatpel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nilai)
-                    .addComponent(TextFieldNilai, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(buttonProses)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 144, Short.MAX_VALUE)
-                .addContainerGap())
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
 
-        pack();
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(0, 0, 400, 400);
+
+        setSize(new java.awt.Dimension(416, 433));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void TextFieldNamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextFieldNamaActionPerformed
@@ -158,7 +152,9 @@ public class quiz1 extends javax.swing.JFrame {
         }else 
             predikat = "";
         
-        TA.setText("Nama : "+nama+"\nAbsen : "+absen+"\nMatpel : "+matpel+" \nNilai : "+nilai+"\nKeterangan : "+predikat);
+        TA.setText("Nama : "+nama+"\nAbsen : "+absen+"\nMatpel : "
+                + ""+matpel+" \nNilai :"
+                        + " "+nilai+"\nKeterangan : "+predikat);
     }//GEN-LAST:event_buttonProsesActionPerformed
 
     /**
@@ -205,6 +201,8 @@ public class quiz1 extends javax.swing.JFrame {
     private javax.swing.JLabel absen;
     private javax.swing.JButton buttonProses;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel matpel;
     private javax.swing.JLabel nama;
